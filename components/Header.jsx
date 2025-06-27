@@ -2,7 +2,7 @@ import { assets } from "@/assets/assets";
 import Image from "next/image";
 import React from "react";
 import { motion } from "motion/react";
-import ankushImg from "@/assets/ankush.jpg";
+import ankushImg from "@/assets/ankush1.jpg";
 
 const Header = () => {
   return (
@@ -15,7 +15,9 @@ const Header = () => {
         <Image
           src={ankushImg}
           alt="Ankush B Shetty"
-          className="rounded-full w-32 h-32 object-cover"
+          width={128}
+          height={128}
+          className="rounded-full w-32 h-32 object-cover object-center"
         />
       </motion.div>
       <motion.h3

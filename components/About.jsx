@@ -2,7 +2,7 @@ import { assets, infoList, toolsData } from "@/assets/assets";
 import Image from "next/image";
 import React from "react";
 import { motion } from "motion/react";
-import ankushImg from "@/assets/ankush.jpg";
+import ankushImg from "@/assets/ankush1.jpg";
 
 const About = ({ isDarkMode }) => {
   return (
